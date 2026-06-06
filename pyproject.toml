@@ -1,0 +1,17 @@
+[project]
+name = "hermes-reflection-hub"
+version = "0.1.0"
+description = "Autonomous reflection service for all 5 Hermes Trading agents on Railway"
+requires-python = ">=3.10"
+
+dependencies = [
+    "pyyaml>=6.0",
+    "httpx>=0.25.0",
+    "rich>=13.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
