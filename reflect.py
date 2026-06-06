@@ -40,6 +40,11 @@ AGENTS = [
         "repo": "https://github.com/1kenton/BTC-5M-BOS-OB.git",
         "goal": {"target_return_30d": 0.10, "max_drawdown": 0.05, "min_sharpe": 1.2},
     },
+    {
+        "name": "BTC-1M-LiquiditySweep",
+        "repo": "https://github.com/1kenton/BTC-1M-LiquiditySweep.git",
+        "goal": {"target_return_30d": 0.10, "max_drawdown": 0.05, "min_sharpe": 1.2},
+    },
 ]
 
 def clone_or_pull(repo_url: str, agent_name: str) -> Path:
